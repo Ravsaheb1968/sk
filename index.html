@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>SpicyTOur</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8732c2bcb3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub_body">
+        <section class="navbar_sec">
+            <header class="logo">
+                <img id="nav_logo" src="Images/logo_SpicyTour.jpg" alt="logo" />
+            </header>
+            <div class="menubar">
+
+            </div>
+            <nav>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">AboutUs</a></li>
+                        <li><a href="#">Endorsement</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">ContactUs</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="login">
+                <button class="log_btn" type="Submit" onclick="">SignUp</button>
+            </div>
+            <div class="menu" onclick="funmenubar()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </section>
+        <section class="content">
+            <div class="info">
+                <h1 class="short_title">Introducing SpicyTour</h1>
+                <p class="short_desc"> We are thrilled to introduce SpicyTOur, your trusted
+                    partner in discovering the most delectable dining experiences tailored to your tour destination.
+
+                    At SpicyTOur, we understand that food is an integral part of any travel experience. Whether
+                    you're embarking on a whirlwind tour of a bustling metropolis, seeking tranquility in a quaint
+                    countryside, or immersing yourself in the vibrant culture of a far-off land, our mission is to
+                    enhance your journey by guiding you to the finest food establishments, hidden gems, and culinary
+                    treasures at your fingertips.</p>
+            </div>
+            <div class="title_tag">
+                <h1 class="welcome">Welcome in SpicyTOur</h2>
+                    <p class="tagline" style="text-align: center;">presented by Skfood</p>
+            </div>
+
+            <div class="rubychen">
+                <h1 class="ruby_welcome">Welcome in SpicyTOur</h2>
+                    <p class="ruby_tagline">presented by Skfood</p>
+
+                    <!-- <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="eight"></div>
+            <div class="nine"></div>
+            <div class="ten"></div>
+            <div class="eleven"></div>
+            <div class="twelve"></div>
+            <div class="thirteen"></div>
+            <div class="fourteen"></div>
+            <div class="fifteen"></div>
+            <div class="sixteen"></div>
+            <div class="seventeen"></div>
+            <div class="eighteen"></div> -->
+            </div>
+
+        </section>
+        <section class="travel_img_box">
+            <div class="bkimg vithal_bg">
+                <div class="first_block">
+                    <h3 class="img_title">TOp Destinations</h3>
+                    <img class="img1" src="Images/first_place.jpeg" alt="" />
+                    <figcaption class="img_desc">SpicyTour: Your Passport to Culinary Adventures!
+                        We help you discover incredible food experiences tailored to your tour destination. Whether
+                        you're craving fiery
+                        street food in Bangkok, seeking the perfect bowl of pasta in Rome, or yearning for authentic
+                        tacos in Mexico City, SpicyTour has you covered.</figcaption>
+                </div>
+                <div class="second_block">
+                    <h3 class="img_title">TOp Chef's</h3>
+                    <img class="img2" src="Images/firstchef.jpeg" alt="" />
+                    <figcaption class="img_desc">SpicyTour: Where Culinary Wonders Await!
+                        We handpick expert chefs who have a deep understanding of regional
+                        cuisines and a passion for discovering exceptional flavors. They're the ones who explore your
+                        tour destination from a culinary perspective, seeking out hidden gems and local delicacies.
+                    </figcaption>
+                </div>
+                <div class="third_block">
+                    <h3 class="img_title">TOp Dishesh</h3>
+                    <img class="img3" src="Images/firstDish.jpg" alt="" />
+                    <figcaption class="img_desc">SpicyTour: Savoring the Essence of Every Destination!
+                        At SpicyTour, our passion lies in discovering flavorful dishes, we rely on our taste buds. We have a
+                        team of dedicated food enthusiasts who sweat it out, exploring every nook and cranny of your
+                        tour destination to find the most delicious and tasteful dishes.</figcaption>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer class="footer">
+        <div class="up">
+            <a class="arr_up" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <div class="social_media">
+            <p class="sm"><a href=""><i class="fa-brands fa-linkedin"></i></a> </p>
+            <p class="sm"> <i class="fa-brands fa-instagram"></i></p>
+            <p class="sm"> <i class="fa-brands fa-twitter"></i></p>
+            <p class="sm"> <i class="fa-brands fa-facebook"></i></p>
+            <p class="sm"> <i class="fa-brands fa-whatsapp"></i></p>
+        </div>
+        <div class="hz_row"></div>
+        <div class="address">
+            <p class="add"><i class="fa-solid fa-location-dot"></i> Ahmednagar, Maharashtra 414111 </p>
+            <p class="add"><i class="fa-solid fa-phone"></i> +91-9284043773</p>
+            <p class="add"><i class="fa-solid fa-envelope"></i> omkorde.rs2002@gmail.com</p>
+        </div>
+        <div class="copyright">© copyright sk 2023</div>
+    </footer>
+    <script>
+        function funmenubar() {
+            let myname = "om"
+            let text = document.querySelector(".menubar").innerHTML = "Hii" + myname;
+            let color = document.querySelector(".menubar").style.color = "red";
+            let listmenustate = document.querySelector(".menubar").style.display = "block";
+            let limenu = document.querySelector(".menubarlist").style.backgroundcolor = "red";
+            let limenupadd = document.querySelector(".menubar").style.padding = "120px";
+        }
+    </script>
+
+</body>
+
+</html>
